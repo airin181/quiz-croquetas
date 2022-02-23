@@ -121,17 +121,17 @@ divResultados.setAttribute("class","div-resultados");
 
    let numRandom = Math.floor(Math.random() * (6)) + 1;
      if(numRandom == 1){
-       creaFoto('/media/Fotos-finales/abuela-final.jpg');
+       creaFoto('../media/Fotos-finales/abuela-final.jpg');
     } else if(numRandom == 2){
-        creaFoto('/media/Fotos-finales/bacalao-final.jpg');
+        creaFoto('../media/Fotos-finales/bacalao-final.jpg');
     } else if(numRandom == 3){
-        creaFoto('/media/Fotos-finales/boletus-final.jpg');
+        creaFoto('../media/Fotos-finales/boletus-final.jpg');
     } else if(numRandom == 4){
-        creaFoto('/media/Fotos-finales/cocido-final.jpg');
+        creaFoto('../media/Fotos-finales/cocido-final.jpg');
     } else if(numRandom == 5){
-        creaFoto('/media/Fotos-finales/jamon-final.jpg');
+        creaFoto('../media/Fotos-finales/jamon-final.jpg');
     } else if(numRandom == 6){
-        creaFoto('/media/Fotos-finales/pollo-final.jpg');
+        creaFoto('../media/Fotos-finales/pollo-final.jpg');
     } else{
 
     } 
